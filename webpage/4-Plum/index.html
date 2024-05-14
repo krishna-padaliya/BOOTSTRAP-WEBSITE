@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLUM</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- remixicon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- b-icon  -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ <!-- slider  -->
+ <link rel="stylesheet" type="text/css" href="slick.css">
+ <link rel="stylesheet" type="text/css" href="slick-theme.css">
+</head>
+<body>
+    <div id="headline">
+        <center>
+            <a href="">Deal of the week | FREE gifts above 699</a>
+        </center>
+    </div>
+
+    <!-- heaer  -->
+    <nav class="navbar" >
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img src="https://plumgoodness.com/cdn/shop/files/new-logo_314d3f73-21ff-4d8a-8cec-8e3a339a32d8.png?v=1698314499&width=110" alt="">
+          </a>
+          <div id="search" class="d-flex">
+            <i class="bi bi-search" id="sea"></i>
+            <input type="search" placeholder="search for product">
+            <i class="bi bi-mic" id="mic"></i>
+          </div>
+          <div class="d-flex" id="icon">
+            <i class="bi bi-person"></i>
+            <i class="bi bi-cart2"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="d-flex" id="navtab">
+        
+          <div class="container pe-4">
+            <div class="dropdown">
+              <button class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                skin
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="drop">
+                <a class="dropdown-item" href="" id="dropdown-item">face serums & oils</a>
+                <a class="dropdown-item" href="" id="dropdown-item">facewashes & cleansers</a>
+                <a class="dropdown-item" href="" id="dropdown-item">think DERMA</a>
+                <a class="dropdown-item" href="" id="dropdown-item">facial moisturizers</a>
+                <a class="dropdown-item" href="" id="dropdown-item">sunscreens</a>
+                <a class="dropdown-item" href="" id="dropdown-item">night creams</a>
+                <a class="dropdown-item" href="" id="dropdown-item">face mist & toners</a>
+                <a class="dropdown-item" href="" id="dropdown-item">eye cream</a>
+                <a class="dropdown-item" href="" id="dropdown-item">lip balms & lip scrubs</a>
+                <a class="dropdown-item" href="" id="dropdown-item">face masks</a>
+                <a class="dropdown-item" href="" id="dropdown-item">face scrubs</a>
+                <a class="dropdown-item" href="" id="dropdown-item">makeup removers</a>
+                <a class="dropdown-item" href="" id="dropdown-item">combos</a>
+                <a class="dropdown-item" href="" id="dropdown-item">see all</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="container pe-4">
+            <div class="dropdown">
+              <button class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                body
+              </button>
+              <div class="dropdown-menu " aria-labelledby="dropdownMenuButton" id="drop">
+                <a class="dropdown-item" href="" id="dropdown-item">soaps</a>
+                <a class="dropdown-item" href="" id="dropdown-item">body lotion spf</a>
+                <a class="dropdown-item" href="" id="dropdown-item">shower gels</a>
+                <a class="dropdown-item" href="" id="dropdown-item">body mist</a>
+                <a class="dropdown-item" href="" id="dropdown-item">perfumes</a>
+                <a class="dropdown-item" href="" id="dropdown-item">body moisturizers</a>
+                <a class="dropdown-item" href="" id="dropdown-item">body shimmer oils</a>
+                <a class="dropdown-item" href="" id="dropdown-item">eye cream</a>
+                <a class="dropdown-item" href="" id="dropdown-item">lip balms & lip scrubs</a>
+                <a class="dropdown-item" href="" id="dropdown-item">face masks</a>
+                <a class="dropdown-item" href="" id="dropdown-item">face scrubs</a>
+                <a class="dropdown-item" href="" id="dropdown-item">makeup removers</a>
+                <a class="dropdown-item" href="" id="dropdown-item">see all</a>
+              </div>
+              
+            </div>
+          </div>
+
+
+          <div class="container pe-4">
+            <div class="dropdown">
+              <button class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                hair
+              </button>
+              <div class="dropdown-menu " aria-labelledby="dropdownMenuButton" id="drop1">
+                <a class="dropdown-item" href="" id="dropdown-item">shampoos</a>
+                <a class="dropdown-item" href="" id="dropdown-item">hair masks</a>
+                <a class="dropdown-item" href="" id="dropdown-item">hair oils</a>
+                <a class="dropdown-item" href="" id="dropdown-item">hair & scalp serum</a>
+                <a class="dropdown-item" href="" id="dropdown-item">combos</a>
+                <a class="dropdown-item" href="" id="dropdown-item">see all</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="container pe-4">
+            <div class="dropdown">
+              <button class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                makeup
+              </button>
+              <div class="dropdown-menu " aria-labelledby="dropdownMenuButton" id="drop">
+                <a class="dropdown-item" href="" id="dropdown-item">kajal</a>
+                <a class="dropdown-item" href="" id="dropdown-item">eyebrow definer</a>
+                <a class="dropdown-item" href="" id="dropdown-item">mascara</a>
+                <a class="dropdown-item" href="" id="dropdown-item">lipsticks</a>
+                <a class="dropdown-item" href="" id="dropdown-item">lip gloss</a>
+                <a class="dropdown-item" href="" id="dropdown-item">lip n cheek tint</a>
+                <a class="dropdown-item" href="" id="dropdown-item">primer</a>
+                <a class="dropdown-item" href="" id="dropdown-item">BB serum</a>
+                <a class="dropdown-item" href="" id="dropdown-item">strobe cream</a>
+                <a class="dropdown-item" href="" id="dropdown-item">face masks</a>
+                <a class="dropdown-item" href="" id="dropdown-item">face scrubs</a>
+                <a class="dropdown-item" href="" id="dropdown-item">makeup removers</a>
+                <a class="dropdown-item" href="" id="dropdown-item">combos</a>
+                <a class="dropdown-item" href="" id="dropdown-item">see all</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="container pe-4">
+            <div class="dropdown">
+              <button class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                fragrances
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="drop1">
+                <a class="dropdown-item" href="" id="dropdown-item">category</a>
+                <a class="dropdown-item" href="" id="dropdown-item">collections</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="container pe-4">
+            <div class="dropdown">
+              <button class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                blogs & newsletters
+              </button>
+              <div class="dropdown-menu " aria-labelledby="dropdownMenuButton" id="drop1">
+                <a class="dropdown-item" href="" id="dropdown-item">all blogs</a>
+                <a class="dropdown-item" href="" id="dropdown-item">skincare blogs</a>
+                <a class="dropdown-item" href="" id="dropdown-item">haircare blogs</a>
+                <a class="dropdown-item" href="" id="dropdown-item">bodycare blogs</a>
+                <a class="dropdown-item" href="" id="dropdown-item">tips, tricks & hacks</a>
+                <a class="dropdown-item" href="" id="dropdown-item">newsletters</a>
+              </div>
+              
+            </div>
+          </div>
+
+
+          <div class="container">
+            <div class="dropdown">
+              <button class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                more
+              </button>
+              <div class="dropdown-menu " aria-labelledby="dropdownMenuButton" id="drop1">
+                <a class="dropdown-item" href="" id="dropdown-item">combos</a>
+                <a class="dropdown-item" href="" id="dropdown-item">get to know us</a>
+                <a class="dropdown-item" href="" id="dropdown-item">help</a>
+                <a class="dropdown-item" href="" id="dropdown-item">order related queries</a>
+              </div>
+            </div>
+          </div>
+
+  
+      </div>
+    <!-- header  -->
+
+    <!-- swiper  -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://plumgoodness.com/cdn/shop/files/BAU_HP_Desk_b1624866-835f-4fe6-8a42-6e760c6cdaad.webp?v=1705574750&width=1400" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://plumgoodness.com/cdn/shop/files/OatsMoisturizer_Desktop-HP_1920x500px_e2bdce11-decb-4926-9f54-c6e143a2a6ca.jpg?v=1705396603&width=1400" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://plumgoodness.com/cdn/shop/files/HomePage-Banner-Desktop_V2_2e82c423-8224-43a3-9644-152bb5879d89.jpg?v=1705489905&width=1400" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://plumgoodness.com/cdn/shop/files/HomePage-Banner-Desktop_V2_28f79e67-11cb-4d21-8272-993d0e0dfc68.jpg?v=1705490008&width=1400" alt="">
+        </div>
+      </div>
+      <img class="swiper-button-next" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/default/dwcda5b236/images/nextArrowWhite.svg" alt="">
+      <img class="swiper-button-prev" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/default/dw9f411a02/images/prevArrowWhite.svg" alt="">
+    <div class="swiper-pagination"></div>
+    </div>
+    <!-- swiper  -->
+
+    <!-- care  -->
+    <div id="care" class="d-flex">
+
+     <div id="body-care">
+      <div id="care-img">
+        <img src="https://plumgoodness.com/cdn/shop/files/Skin_Category-Icons_Models_180x180_9022e18a-79b6-45d7-bf64-20a09c4bf45e.png?v=1703222307&width=180" alt="">
+      </div>
+      <center><p>Skincare</p></center>
+     </div>
+
+     <div id="body-care">
+      <div id="care-img">
+        <img src="https://plumgoodness.com/cdn/shop/files/Body_Category-Icons_Models_180x180_858bd989-1dac-45ce-8307-bce49052133c.png?v=1703234370&width=180" alt="">
+      </div>
+      <center><p>bodycare</p></center>
+     </div>
+
+     <div id="body-care">
+      <div id="care-img">
+        <img src="https://plumgoodness.com/cdn/shop/files/Hair_Category-Icons_Models_180x180_17a6ac87-0aeb-46dc-a373-30feb9caa460.png?v=1703234394&width=180" alt="">
+      </div>
+      <center><p>haircare</p></center>
+     </div>
+
+     <div id="body-care">
+      <div id="care-img">
+        <img src="https://plumgoodness.com/cdn/shop/files/Makeup_Category-Icons_Models_180x180_43f49cf0-7348-44f4-8443-494df38a0fe8.png?v=1703234416&width=180" alt="">
+      </div>
+      <center><p>makeup</p></center>
+     </div>
+
+     <div id="body-care">
+      <div id="care-img">
+        <img src="https://plumgoodness.com/cdn/shop/files/fragrance_Category-Icons_Models_180x180_6b966a16-22e8-474d-84ef-e071d404cf2d.png?v=1705504239&width=180" alt="">
+      </div>
+      <center><p>fragrances</p></center>
+     </div>
+
+    </div>
+    <!-- care  -->
+
+
+    <!-- deal  -->
+    <div id="deal">
+     <h1>plumster speak</h1>
+      <section class="regular slider">
+        <div>
+          <img src="img/1.jpg">
+        </div>
+        <div>
+          <img src="img/2.jpg">
+        </div>
+        <div>
+          <img src="img/3.jpg">
+        </div>
+        <div>
+          <img src="img/4.jpg">
+        </div>
+        <div>
+          <img src="img/5.jpg">
+        </div>
+        <div>
+          <img src="img/6.jpg">
+        </div>
+        <div>
+          <img src="img/7.jpg">
+        </div>
+        <div>
+          <img src="img/8.jpg">
+        </div>
+        <div>
+          <img src="img/9.jpg">
+        </div>
+        <div>
+          <img src="img/10.jpg">
+        </div>
+        <div>
+          <img src="img/11.jpg">
+        </div>
+      </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: false,
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1
+      });
+    });
+</script>
+  <!-- deal  -->
+
+
+  <!-- defeat -->
+  <div id="defat">
+    <h1>let's defeat</h1>
+    <div id="defat-main" class="d-flex">
+    <div id="defat-img">
+      <img src="https://plumgoodness.com/cdn/shop/files/acne_a381e779-e4ed-498e-8151-63fc42b5ca93.png?v=1704188773&width=320" alt="">
+      <p>acne</p>
+    </div>
+    <div id="defat-img">
+      <img src="https://plumgoodness.com/cdn/shop/files/blemishesh.png?v=1704188773&width=320" alt="">
+      <p>dry skinpigmentation</p>
+    </div>
+    <div id="defat-img">
+      <img src="https://plumgoodness.com/cdn/shop/files/pigmentation_92b87035-4cad-4313-8dcd-8ce4c3c9c8fb.png?v=1704188773&width=320" alt="">
+      <p>pigmentation</p>
+    </div>
+    <div id="defat-img">
+      <img src="https://plumgoodness.com/cdn/shop/files/wrinkles.png?v=1704188773&width=320" alt="">
+      <p>signs of ageing</p>
+    </div>
+    <div id="defat-img">
+      <img src="https://plumgoodness.com/cdn/shop/files/dull-hair_811ee56e-b341-44dd-9162-90a752e63ecf.png?v=1704188773&width=320" alt="">
+      <p>dull hair</p>
+    </div>
+    <div id="defat-img">
+      <img src="https://plumgoodness.com/cdn/shop/files/hair_9bdcbf94-70cb-44ef-85b3-a442caed3cb2.png?v=1704188773&width=320" alt="">
+      <p>hairfall</p>
+    </div>
+    <div id="defat-img">
+      <img src="https://plumgoodness.com/cdn/shop/files/fizzy-hair.png?v=1704188773&width=320" alt="">
+      <p>frizzy hair</p>
+    </div>
+    <div id="defat-img">
+      <img src="https://plumgoodness.com/cdn/shop/files/chemically-treated-hair_02b96a88-c5bd-4bc7-8818-14e0fd86f676.png?v=1704188773&width=320" alt="">
+      <p>damaged hair</p>
+    </div>
+    
+  </div>
+  </div>
+
+
+  <!-- slider  -->
+  <div id="fefat-slider" style="margin-bottom: 50px;">
+  <section class="regular slider">
+    <div>
+      <img src="img/p1.png">
+    </div>
+    <div>
+      <img src="img/p2.jpg">
+    </div>
+    <div>
+      <img src="img/p3.jpg">
+    </div>
+    <div>
+      <img src="img/p4.jpg">
+    </div>
+    <div>
+      <img src="img/p5.jpg">
+    </div>
+  </section>
+</div>
+  <!-- defeat -->
+
+
+<!-- video  -->
+<div id="video">
+  <!-- Swiper -->
+  <div class="swiper Swiper">
+    <div class="swiper-wrapper">
+      <!-- 1 -->
+      <div class="swiper-slide" id="video-main">
+        <video id="play"  preload="none" autoplay="true" muted="true" mediatype="video"
+        dataindex="Infinity"  loop="true" 
+        src="https://plumgoodness.com/cdn/shop/files/quinn_yfrlv377jh9zexkqq1xrbkll.mp4">
+        </video>
+        <div id="video-txt">
+          <p>Hello 2024!</p>
+        </div>
+      </div>
+<!-- 2 -->
+      <div class="swiper-slide" id="video-main">
+        <video id="play"  preload="none" autoplay="true" muted="true" mediatype="video"
+        dataindex="Infinity"  loop="true" 
+        src="https://plumgoodness.com/cdn/shop/files/quinn_lg2dg8ddzsk0plhg9jiu2ga0.mp4">
+        </video>
+        <div id="video-txt">
+          <p>Vanilla Caramello Body Lotion</p>
+          <div id="line"></div>
+          <strike><i class="bi bi-currency-rupee"></i>525</strike>
+          <span><i class="bi bi-currency-rupee"></i>462</span>
+        </div>
+      </div>
+<!-- 3 -->
+      <div class="swiper-slide" id="video-main">
+        <video id="play"  preload="none" autoplay="true" muted="true" mediatype="video"
+        dataindex="Infinity"  loop="true" 
+        src="https://plumgoodness.com/cdn/shop/files/quinn_sqi2b4mb3sy5io86pehedlvm.mp4">
+        </video>
+        <div id="video-txt">
+          <p>Butter Creme Matte Lipstick</p>
+          <div id="line"></div>
+          <strike><i class="bi bi-currency-rupee"></i>325</strike>
+          <span><i class="bi bi-currency-rupee"></i>276</span>
+        </div>
+      </div>
+<!-- 4 -->
+      <div class="swiper-slide" id="video-main">
+        <video id="play"  preload="none" autoplay="true" muted="true" mediatype="video"
+        dataindex="Infinity"  loop="true" 
+        src="https://plumgoodness.com/cdn/shop/files/quinn_gjnqa9mz8u3v173v6jbuhax5.mp4">
+        </video>
+        <div id="video-txt">
+          <p>Starry Light Eau De Parfume</p>
+          <div id="line"></div>
+          <strike><i class="bi bi-currency-rupee"></i>345</strike>
+          <span><i class="bi bi-currency-rupee"></i>242</span>
+        </div>
+      </div>
+<!-- 5 -->
+      <div class="swiper-slide" id="video-main">
+        <video id="play"  preload="none" autoplay="true" muted="true" mediatype="video"
+        dataindex="Infinity"  loop="true" 
+        src="https://plumgoodness.com/cdn/shop/files/quinn_kh5yppb47lq2no3jn1z6ks4c.mp4">
+        </video>
+        <div id="video-txt">
+          <div id="line"></div>
+          <strike><i class="bi bi-currency-rupee"></i>475</strike>
+          <span><i class="bi bi-currency-rupee"></i>380</span>
+        </div>
+      </div>
+<!-- 6 -->
+      <div class="swiper-slide" id="video-main">
+        <video id="play"  preload="none" autoplay="true" muted="true" mediatype="video"
+        dataindex="Infinity"  loop="true" 
+        src="https://plumgoodness.com/cdn/shop/files/quinn_bn3lgh17avffxjmhhn883emk.mp4">
+        </video>
+        <div id="video-txt">
+          <p>Active-witty 1% Glycolic Acid Body Scrub</p>
+          <div id="line"></div>
+          <strike><i class="bi bi-currency-rupee"></i>525</strike>
+          <span><i class="bi bi-currency-rupee"></i>473</span>
+        </div>
+      </div>
+<!-- 7 -->
+      <div class="swiper-slide" id="video-main">
+        <video id="play"  preload="none" autoplay="true" muted="true" mediatype="video"
+        dataindex="Infinity"  loop="true" 
+        src="https://plumgoodness.com/cdn/shop/files/quinn_erjd5jwmwqmyv30d9y35azwf.mp4">
+        </video>
+        <div id="video-txt">
+          <p>Body Shimmer Oil - Copper Sheen</p>
+          <div id="line"></div>
+          <strike><i class="bi bi-currency-rupee"></i>599</strike>
+          <span><i class="bi bi-currency-rupee"></i>509</span>
+        </div>
+      </div>
+<!-- 8 -->
+      <div class="swiper-slide" id="video-main">
+        <video id="play"  preload="none" autoplay="true" muted="true" mediatype="video"
+        dataindex="Infinity"  loop="true" 
+        src="https://plumgoodness.com/cdn/shop/files/quinn_e4gx92rr1s1eb7c0fjflzxj2.mp4">
+        </video>
+        <div id="video-txt">
+          <p>Plum Velvet Haze Matte Lipstick with SPF</p>
+          <div id="line"></div>
+          <strike><i class="bi bi-currency-rupee"></i>799</strike>
+          <span><i class="bi bi-currency-rupee"></i>703</span>
+        </div>
+      </div>
+<!-- 9 -->
+      <div class="swiper-slide" id="video-main">
+        <video id="play"  preload="none" autoplay="true" muted="true" mediatype="video"
+        dataindex="Infinity"  loop="true" 
+        src="https://plumgoodness.com/cdn/shop/files/quinn_x4qa86x6qzflb7huz9sfqul2.mp4">
+        </video>
+        <div id="video-txt">
+          <p>All-Day-Wear Kohl Kajal</p>
+          <div id="line"></div>
+          <strike><i class="bi bi-currency-rupee"></i>495</strike>
+          <span><i class="bi bi-currency-rupee"></i>396</span>
+        </div>
+      </div>
+<!-- 10 -->
+      <div class="swiper-slide" id="video-main">
+        <video id="play"  preload="none" autoplay="true" muted="true" mediatype="video"
+        dataindex="Infinity"  loop="true" 
+        src="https://plumgoodness.com/cdn/shop/files/quinn_fy86gw4ciypc5521cj3cxcbr.mp4">
+        </video>
+        <div id="video-txt">
+          <p>Plum Soft Swirl Lip Gloss</p>
+          <div id="line"></div>
+          <strike><i class="bi bi-currency-rupee"></i>525</strike>
+          <span><i class="bi bi-currency-rupee"></i>462</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".Swiper", {
+      slidesPerView: 4,
+      spaceBetween: 10,
+      freeMode: true,
+     
+    });
+  </script>
+</div>
+<!-- video  -->
+
+
+
+  <!-- hot selling -->
+  <div id="sell">
+    <h1>hot selling</h1>
+    <div id="sell-main" class="d-flex">
+    <img src="https://plumgoodness.com/cdn/shop/files/MOISTURIZER_SPF.webp?v=1705488234&width=320" alt="">
+    <img src="https://plumgoodness.com/cdn/shop/files/SPECIALIST_SERUM.webp?v=1705488264&width=320" alt="">
+    <img src="https://plumgoodness.com/cdn/shop/files/SPECIALIST_SERUM.webp?v=1705488264&width=320" alt="">
+    <img src="https://plumgoodness.com/cdn/shop/files/SPECIALIST_SERUM.webp?v=1705488264&width=320" alt="">
+    <img src="https://plumgoodness.com/cdn/shop/files/SPECIALIST_SERUM.webp?v=1705488264&width=320" alt="">
+    <img src="https://plumgoodness.com/cdn/shop/files/COCONUT.webp?v=1705488459&width=320" alt="">
+    </div>
+  </div>
+  <!-- hot selling -->
+
+
+  <!-- board  -->
+  <div id="board">
+  <center>
+  <img src="https://cdn.shopify.com/s/files/1/0390/2985/files/plum-project-full_2e30e827-ea88-408f-a44d-a3f08a0845c3.png?v=1704261069" alt="">
+  </center>
+  </div>
+  <!-- board  -->
+
+
+
+  <!-- guides -->
+  <div id="guide">
+  <h1>goodness guides</h1>
+  <section class="center slider">
+    <div>
+      <img src="https://plumgoodness.com/cdn/shop/articles/dark_spots_Plum_External_Blog_2.webp?v=1705664190&width=900">
+    </div>
+    <div>
+      <img src="https://plumgoodness.com/cdn/shop/articles/Salicylic_acid_External_PlumBlog_2_copy.webp?v=1703843047&width=900">
+    </div>
+    <div>
+      <img src="https://plumgoodness.com/cdn/shop/articles/Dry_skin_in_winters_External_Plum_Blog.jpg?v=1703845812&width=900">
+    </div>
+    <div>
+      <img src="https://plumgoodness.com/cdn/shop/articles/5-Skincare-tips_EXTERNAL.jpg?v=1703595035&width=900">
+    </div>
+    <div id="view">
+      <center>
+      <a href="">View all<i class="bi  bi-chevron-double-right"></i></a>
+    </center>
+    </div>
+  </section>
+</div>
+  <script type="text/javascript">
+    $(".center").slick({
+        dots: false,
+        infinite: false,
+        centerMode: false,
+        slidesToShow: 3,
+        slidesToScroll: 1
+      });
+</script>
+<!-- guides -->
+
+
+
+<!-- footer  -->
+<footer>
+  <div id="footer-main"  class="d-flex">
+  <ul id="links">
+    <h5>shop</h5>
+    <li>skincare</li>
+    <li>bodycare</li>
+    <li>makeup</li>
+    <li>haircare</li>
+    <li>babycare</li>
+    <li>phy</li>
+  </ul>
+
+  <ul id="links">
+    <h5>learn</h5>
+    <li>plum blogs</li>
+    <li>plum features</li>
+    <li>plum rewards</li>
+    <li>newsletters</li>
+  </ul>
+
+  <ul id="links">
+    <h5>help</h5>
+    <li>contact us</li>
+    <li>policies</li>
+    <li>faqs</li>
+    <li>empties4good</li>
+    <li>track your order</li>
+  </ul>
+
+  <div id="link-last">
+   <p id="l1">for exclusive previews, offers & all things beauty! we hate spam.</p>
+   <input type="email" name="" placeholder="your email"> <button>subscribe</button>
+   <hr>
+   <center>
+   <i class="bi bi-facebook"></i>
+   <i class="bi bi-youtube"></i>
+   <i class="bi bi-instagram"></i>
+   <i class="bi bi-twitter-x"></i> &nbsp;
+  |&nbsp;<span>+91-750-649-6604</span>
+</center>
+   <hr>
+   <p id="l2">hello@plumgoodness.com</p>
+  </div>
+</div>
+</footer>
+<div id="footer-bottom">
+  <center>
+    <p>© 2024 plum, all rights reserved. <br>
+    privacy policy | terms of service</p>
+  </center>
+</div>
+
+<!-- footer  -->
+
+
+
+</body>
+</html>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>

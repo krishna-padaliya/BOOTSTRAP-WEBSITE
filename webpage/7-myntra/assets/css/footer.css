@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS,sans-serif;
+}
+footer{
+    width: 100%;
+    background-color: #eeeeee9c;
+}
+#ft-main{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#ft-link{
+    flex-basis: 25%;
+}
+#ft-link1{
+   flex-basis: 40%;
+}
+#ft-search{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+#ft-last,#link-flex{
+    display: flex;
+}
+footer p{
+    color: #767676;
+    padding: 2px;
+}
+footer i{
+    color: #767676;
+    font-size: 25px;
+    padding: 5px;
+}
+footer h5{
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#link-flex span{
+    color: #000000;
+    font-weight: 700;
+}
+#link-flex img{
+    width: 150px;
+    height: 50px;
+}
+#link-flex #pic{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+#ft-last{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+#line{
+    background-color: #767676;
+    height: 1px;
+    width: 88%;
+    margin-top: 36px;
+}
+
+
+
+/* media query  */
+@media (min-width:981px) and (max-width:1200px){
+    #ft-link{
+        flex-basis: 30%;
+    }
+    #ft-link1{
+       flex-basis: 60%;
+    }
+}
+
+@media (min-width:721px) and (max-width:980px){
+    #ft-main, #ft-last{
+        flex-wrap: wrap;
+    }
+    #ft-last p{
+    padding: 8px;
+    }
+    #ft-link{
+        flex-basis: 35%;
+    }
+    #ft-link1{
+       flex-basis: 50%;
+    }
+    .ft{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width:481px) and (max-width:720px){
+    #ft-main, #ft-last{
+        flex-wrap: wrap;
+    }
+    #ft-last p{
+    padding: 8px;
+    }
+    #ft-link{
+        flex-basis: 50%;
+    }
+    #ft-link1{
+       flex-basis: 60%;
+    }
+    .ft{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width:361px) and (max-width:480px){
+    #ft-main, #ft-last{
+        flex-wrap: wrap;
+    }
+    #ft-last p{
+    padding: 8px;
+    }
+    #ft-link{
+        flex-basis: 50%;
+    }
+    #ft-link1{
+       flex-basis: 90%;
+    }
+    .ft{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width:0px) and (max-width:360px){
+    #ft-main, #ft-last{
+        flex-direction: column;
+    }
+    #ft-last p{
+    padding: 8px;
+    }
+    .ft{
+        margin-top: 30px;
+    }
+}

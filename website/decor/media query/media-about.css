@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-wiidth:575px){
+    #ab-1{
+     flex-direction: column;
+    }
+    #ab-1 img{
+     width: 300px;
+     height: 300px;
+    }
+ }

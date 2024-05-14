@@ -1,0 +1,50 @@
+
+
+@media (min-width:769px) and (max-width:922px){
+    footer{
+        flex-direction: column;
+        height: auto;
+        margin-top: 2000px;
+    }
+    #pt2{
+        flex-basis: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:576px) and (max-width:768px){
+    footer{
+        flex-direction: column;
+        height: auto;
+        margin-top: 2000px;
+    }
+    
+#product-p{
+    flex-direction: column;
+}
+#pt2{
+    margin-top:1400px;
+}
+}
+
+
+@media(max-width:575px){
+    footer{
+        flex-direction: column;
+        height: auto;
+        margin-top: 3800px;
+    }
+    
+#product-p{
+    flex-direction: column;
+}
+#pt2{
+    margin-top: 3300px;
+}
+}

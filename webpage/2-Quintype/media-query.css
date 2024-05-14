@@ -1,0 +1,154 @@
+@media (min-width:981px) and (max-width:1200px){
+    
+}
+
+
+
+
+
+@media (min-width:721px) and (max-width:980px){
+    #sec1{
+        flex-direction: column;
+        margin-bottom: 450px;
+    }
+    #sec3 img{
+        width: 500px;
+    }
+    #sec3 p,ul li{
+        width: 90%;
+    }
+    #sec5{
+        margin-left: 5;
+    }
+}
+
+
+
+@media (min-width:481px) and (max-width:720px){
+    #sec1{
+        flex-direction: column;
+        margin-bottom: 500px;
+    }
+    #sec1-img{
+        margin-left: 100px;
+    }
+    #sec1-txt #b1{
+        margin-bottom: 10px;
+    }
+    #sec2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 100px;
+        margin-bottom: 200px;
+    }
+    #sec3{
+        margin-left: 0;
+    } 
+    #first-line{
+        width: 180px;
+    }
+     #sec5{
+        flex-direction: column;
+        margin-left: 190px;
+    }
+    #sec5-h2{
+        margin-left: 190px;
+
+    }
+    #sec-ft{
+        height: 1500px;
+    }
+    #f1 img{
+        margin-bottom: 30px;
+    }
+    footer{
+        flex-direction: column;
+    } 
+}
+
+
+
+
+
+
+@media (min-width:361px) and (max-width:480px){
+    #sec1{
+        flex-direction: column;
+        margin-bottom: 600px;
+    }
+    #sec1-img{
+        margin-left: 0;
+    }
+    #sec1-txt #b1{
+        margin-bottom: 10px;
+    }
+    #sec2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 100px;
+        margin-bottom: 200px;
+    }
+    #sec3 img{
+        width: 300px;
+    }
+    #sec5{
+        flex-direction: column;
+    }
+    #sec-ft{
+        height: 1800px;
+    }
+    #f1 img{
+        margin-bottom: 30px;
+    }
+    footer{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+@media (min-width:0px) and (max-width:360px){
+    #sec1{
+        flex-direction: column;
+        margin-bottom: 700px;
+    }
+    #sec1-img{
+        margin-left: 0;
+    }
+    #sec1-txt #b1{
+        margin-bottom: 10px;
+    }
+    #sec2{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 100px;
+        margin-bottom: 200px;
+    }
+    #sec3 img{
+        width: 300px;
+    }
+    /* #carouselExample{
+        margin-left: 50px;
+    } */
+    #sec5{
+        flex-direction: column;
+    }
+    #sec-ft{
+        height: 1800px;
+    }
+    #f1 img{
+        margin-bottom: 30px;
+    }
+    footer{
+        flex-direction: column;
+    }
+
+}
+
+
+
+

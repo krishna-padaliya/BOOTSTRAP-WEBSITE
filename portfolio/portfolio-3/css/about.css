@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.offcanvas-title{
+    width: 80%;
+    background-color:blue;
+    font-weight: blod;
+    border-radius: 10px;
+    text-align: center;
+}
+#close{
+    width: 20%;
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+.container-fluid img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  justify-content: center;
+}
+#b-icon i{
+  margin-left: 30px;
+}
+#b-icon{
+  margin-top: 200px; 
+}
+
+
+
+
+#about{
+  display: flex;
+  width: 94%;
+  height: 900px;
+  border: 1px solid #fff;
+  margin-left: 6%;
+}
+#ab-1{
+  position: relative;
+  flex-basis: 47%;
+  background-color: rgb(9, 9, 183);
+  color: #fff;
+}
+#ab-1 img{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+  margin-left: 120px;
+  
+}
+#ab-1 i{
+  color: #fff;
+  position: absolute;
+  top: 60px;
+  right: 150px;
+}
+#ab-1 #i1{
+  color: #fff;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+#ab-1 #i2{
+  color: #fff;
+  position: absolute;
+  top: 300px;
+  left: 105px;
+  font-size: 20px;
+}
+#ab-1 #i3{
+  color: #fff;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#ab-1 h5{
+  margin-left: 80px;
+  margin-top: 50px;
+}
+#ab-1 h4{
+   font-size: 35px;
+   margin-left: 80px;
+}
+#ab-1 h4 span{
+  font-weight: bolder;
+}
+#ab-1 p{
+  margin-top: 20px;
+  font-size: 14px;
+  margin-left: 80px;
+  width: 70%;
+  margin-bottom: 30px;
+}
+#ab-1 button{
+  border: 1px solid #fff;
+  color: #fff;
+  margin-left: 80px;
+}
+#ab-1 a{
+  color: #fff;
+  margin-left: 80px;
+  
+}
+
+
+
+#ab-2{
+  flex-basis: 47%;
+}
+#ab-2 h2{
+  margin-top: 30px;
+  font-size: 35px;
+  margin-left: 30px;
+}
+#ab-2 .line{
+  background-color: blue;
+  width: 130px;
+  height: 3px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+#ab-2 p{
+  color: gray;
+  font-size: 14px;
+  margin-left: 30px;
+}
+#ab-2 img{
+  margin-left: 20px;
+}

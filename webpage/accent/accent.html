@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- bootshrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- style.css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+<!-- header  -->
+<nav class="navbar fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Accent <span>.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">What We Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- header  -->
+
+<br><br>
+
+<!-- slider  -->
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/hero_1.jpg.webp" class="d-block w-100" alt="...">
+         <div id="slide-txt">
+               <h1>Accent Web Studio</h1>
+               <p>We are web studio in New York. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               <button class="btn bg-info text-light" type="button"> Start a Project</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/hero_2.jpg.webp" class="d-block w-100" alt="...">
+        <div id="slide-txt">
+            <h1>Accent Web Studio</h1>
+            <p>We are web studio in New York. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="btn bg-info text-light" type="button"> Start a Project</button>
+     </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/hero_3.jpg.webp" class="d-block w-100" alt="...">
+        <div id="slide-txt">
+            <h1>Accent Web Studio</h1>
+            <p>We are web studio in New York. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="btn bg-info text-light" type="button"> Start a Project</button>
+     </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- slider  -->
+
+<!-- about us  -->
+<div id="about">
+    <img src="img/hero_3.jpg.webp" alt="">
+    <div id="about-txt">
+        <h6>ABOUT US</h6>
+        <h3>We Are Expert In Web</h3>
+        <p>
+            A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+        </p>
+            <i class="bi bi-chevron-bar-right"></i> <span>Design</span><br>
+            <i class="bi bi-chevron-bar-right"></i> <span>Development</span><br>
+            <i class="bi bi-chevron-bar-right"></i> <span>eCommerce</span><br>
+            <i class="bi bi-chevron-bar-right"></i> <span>Mobile Apps</span><br>
+            <i class="bi bi-chevron-bar-right"></i> <span>Copywriting</span><br>
+            <i class="bi bi-chevron-bar-right"></i> <span>SEO</span> <br><br>
+
+            <a href="https://www.youtube.com/watch?v=smvyxABRZTU" class="mt-3"> <i class="bi bi-play-btn "></i>  Watch Video</a>
+    </div>
+</div>
+
+
+<div id="meet">
+    <div id="in-meet">
+    <h6>MEET THE TEAM</h6>
+    <h3>We Are Expert In We, Branding and Mobile</h3>
+    <div id="meet-txt">
+        <div id="txt-1">
+           <img src="img/person_1.jpg.webp" alt="">
+           <h5>James Anderson</h5>
+           <h6>CEO, Co-Founder</h6>
+           <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae suscipit soluta odio itaque, consequuntur excepturi architecto, omnis iure repellat, ipsum consectetur praesentium accusantium quibusdam temporibus quasi. Ipsa quisquam rem illo.
+           </p>
+           <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus suscipit dolores illum, deleniti quod officiis labore ipsam? Nulla, ab perspiciatis!
+           </p>
+           <div id="txt-ic">
+           <i class="bi bi-twitter"></i>  
+           <i class="bi bi-facebook"></i>
+           <i class="bi bi-behance"></i>
+           <i class="bi bi-instagram"></i>
+           <i class="bi bi-linkedin"></i>
+           </div>
+        </div>
+        <div id="txt-1">
+            <img src="img/person_2.jpg.webp" alt="">
+            <h5>Chris Peters</h5>
+            <h6>CTO, Co-Founder</h6>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae suscipit soluta odio itaque, consequuntur excepturi architecto, omnis iure repellat, ipsum consectetur praesentium accusantium quibusdam temporibus quasi. Ipsa quisquam rem illo.
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus suscipit dolores illum, deleniti quod officiis labore ipsam? Nulla, ab perspiciatis!
+            </p>
+            <div id="txt-ic">
+            <i class="bi bi-twitter"></i>  
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-behance"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- about us  -->
+
+
+<!-- what  -->
+<div id="do">
+    <div id="in-do">
+        <h6>WHAT WE DO</h6>
+        <h3>Our Work On Project</h3>
+         <div class="do-txt">
+            <div class="in-do-txt">
+                <i class="bi bi-window-stack"></i>
+                <h5 class="card-title">Web Design</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.
+                </p>
+                <a href="#" class="card-link">Learn more</a>
+            </div>
+
+            <div class="in-do-txt">
+                <i class="bi bi-laptop"></i>
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.
+                </p>
+                <a href="#" class="card-link">Learn more</a>
+            </div>
+
+            <div class="in-do-txt">
+                <i class="bi bi-app-indicator"></i>
+                      <h5 class="card-title">Web Apps</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.
+                      </p>
+                      <a href="#" class="card-link">Learn more</a>
+            </div>
+
+            <div class="in-do-txt">
+                <i class="bi bi-phone"></i>
+                <h5 class="card-title">Mobile Apps</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.
+                </p>
+                <a href="#" class="card-link">Learn more</a>
+            </div>
+
+            <div class="in-do-txt">
+                <i class="bi bi-pencil-square"></i>
+                <h5 class="card-title">CopyWriting</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.
+                </p>
+                <a href="#" class="card-link">Learn more</a>
+            </div>
+
+            <div class="in-do-txt">
+                <i class="bi bi-search "></i>
+                <h5 class="card-title">Search Engine Optimization</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.
+                </p>
+                <a href="#" class="card-link">Learn more</a>
+            </div>
+         </div>
+    </div>
+</div>
+<!-- what  -->
+
+
+
+<!-- work -->
+<div id="work">
+    <h6>RECENT WORKS</h6>
+    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae suscipit soluta odio itaque</h3>
+    <div id="work-main">
+  <div id="imes">
+    <img src="img/project_1.jpg.webp" alt="">
+    <img src="img/project_2.jpg.webp" alt="">
+  </div>
+  <div id="work-txt">
+    <h5> HTML & CSS Project </h5>
+    <p id="p1">
+      A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+    </p>
+    <h4>Role: <span id="sp1">Design, Illustration, Web</span></h4>
+    <p id="p2" class="fst-italic">
+      Nice Looking Website Of Ours. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam excepturi quod dolore commodi.
+    </p>
+    <img src="img/person_1.jpg.webp" alt="" id="bp"><span id="sp2">  — John Doe</span><br>
+    <a href="">VISIT WEBSITE</a>
+  </div>
+</div>
+
+
+<div id="work-main">
+  <div id="work-txt">
+    <h5> HTML & CSS & Bootstarp Project </h5>
+    <p id="p1">
+      A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+    </p>
+    <h4>Role: <span id="sp1">Design, Illustration, Web</span></h4>
+    <p id="p2" class="fst-italic">
+      Nice Looking Website Of Ours. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam excepturi quod dolore commodi.
+    </p>
+    <img src="img/person_1.jpg.webp" alt="" id="bp"><span id="sp2">  — John Doe</span><br>
+    <a href="">VISIT WEBSITE</a>
+  </div>
+  <div id="imes">
+    <img src="img/project_1.jpg.webp" alt="">
+    <img src="img/project_2.jpg.webp" alt="">
+  </div>
+</div>
+</div>
+<!-- work -->
+
+
+
+<!-- contact  -->
+<div id="contact">
+  <h6>GET IN TOUCH</h6>
+  <h3>Contact Us</h3>
+  <form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-6">
+      <label for="validationCustom01" class="form-label">First name</label>
+      <input type="text" class="form-control" id="validationCustom01"  required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom02" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02"  required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustomUsername" class="form-label">Username</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">Subject</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-12">
+      <label for="validationCustom03" class="form-label">Message</label><br>
+      <textarea name="" id="" cols="126" rows="5"></textarea>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary mt-4" type="submit">Send Message</button>
+    </div>
+  </form>
+</div>
+<!-- contact  -->
+
+
+
+
+<!-- footer  -->
+<div id="footer">
+  <div id="ft1">
+    <h5>About Us</h5>
+    <p>
+      A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+    </p>
+  </div>
+
+  <div id="ft2">
+    <h5>Navigation</h5>
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Privacy</li>
+    <li>Terms</li>
+    <li>Contact</li>
+  </div>
+  
+  <div id="ft3">
+    <h5>Subscribe Newsletter</h5>
+    <input type="email" name="" id="" placeholder="Enter Emali">
+    <a href="">Subscribe</a>
+  </div>
+</div>
+
+
+
+<!-- footer  -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+ 

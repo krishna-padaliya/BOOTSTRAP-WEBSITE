@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* heder  */
+.nav-link:hover{
+    color: rgb(29, 181, 184);
+}
+.navbar {
+    background-color: #fff;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.navbar-brand span{
+    color: rgb(29, 181, 184);
+    font-size: 30px;
+}
+/* heder  */
+
+
+/* slider  */
+.carousel-item{
+    position: relative;
+}
+.carousel-item img{
+    height: 700px;
+}
+#slide-txt{
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    background-color: #fff;
+}
+#slide-txt h1{
+    color:lightslategray;
+    font-size: 60px;
+    font-family: Algerian;
+    text-align: center;
+}
+#slide-txt p{
+    color: gray;
+    text-align: center;
+}
+#slide-txt .btn{
+    margin-left: 230px;
+}
+/* slider  */
+
+
+/* about us  */
+#about{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#about img{
+    width: 350px;
+    height: 350px;
+    margin-top: 80px;
+}
+#about-txt{
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+}
+#about-txt h6{
+    color: gray;
+}
+#about-txt h3{
+    color: rgb(29, 181, 184) ;
+    font-size: 30px;
+}
+#about-txt p{
+    margin-top: 30px;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+#about-txt i{
+   color: rgb(29, 181, 184);
+   font-size: 20px;
+}
+#about-txt span{
+    color: rgb(28, 28, 28);
+}
+#about-txt a{
+    color:rgb(29, 181, 184) ;
+}
+#meet{
+    height: 900px;
+    /* border: 1px solid black; */
+ margin-top: 100px;
+    width: 100%;
+}
+#in-meet{
+  width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+#meet h6{
+    color: gray;
+}
+#meet h3{
+    color: rgb(29, 181, 184) ;
+    font-size: 30px;
+    width: 40%;
+}
+#meet-txt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#meet-txt #txt-1{
+    width: 48%;
+    /* border: 1px solid black; */
+    height:750px;
+}
+#txt-1 img{
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+}
+#txt-1 h5{
+    margin-top: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+#txt-1 h6{
+    font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#txt-1 p{
+    color: gray;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#txt-ic{
+    margin-left: 50px;
+}
+#txt-1  i{
+    color: rgb(29, 181, 184) ;
+    padding:5px;
+    
+}
+/* about us  */
+
+
+/* what  */
+#do{
+    width: 100%;
+    height: 850px;
+    background-color:#F8F9FA;
+}
+#in-do{
+    width: 70%;
+    height: inherit;
+    margin: auto;
+    border: 1px solid #F8F9FA;
+}
+#in-do h6{
+    color: gray;
+    margin-top: 50px;
+}
+#in-do h3{
+    color: rgb(29, 181, 184) ;
+    font-size: 30px;
+    width: 40%;
+}
+.do-txt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.in-do-txt{
+    /* border: 1px solid gray; */
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 40px;
+    border-top: 3px solid rgb(29, 181, 184) ;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    border-left: 1px solid rgb(187, 187, 187);
+    border-right: 1px solid rgb(187, 187, 187);
+}
+.in-do-txt i{
+    color: rgb(29, 181, 184) ;
+    font-size: 40px;
+  
+}
+.in-do-txt h5{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.in-do-txt  p{
+    color: gray;
+    margin-bottom: 20px;
+}
+.in-do-txt  a{
+    text-decoration: none;
+    color: rgb(29, 181, 184) ;
+}
+/* what  */
+
+
+
+/* work  */
+#work{
+    width: 100%;
+    height: 1300px;
+    /* border: 1px solid black; */
+}
+#work h6{
+    color: gray;
+    margin-top: 50px;
+    text-align: center;
+}
+#work h3{
+    color: rgb(29, 181, 184) ;
+    font-size: 30px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+#work-main{
+    display: flex;
+    width: 70%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+   justify-content: space-between;
+}
+#imes{
+    flex-basis: 40%;
+}
+#imes img{
+    width: 400px;
+    height:500px;
+}
+#imes{
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid black; */
+    overflow: scroll;
+    scroll-behavior: none;
+    scroll-snap-align: start;
+}
+#work-txt {
+    flex-basis: 50%;
+    margin-top: 90px;
+}
+#work-txt #bp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+#work-txt h5{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#work-txt #p1{
+    color: gray;
+    font-size: 15px;
+}
+#work-txt h4{
+   font-size: 18px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+#work-txt h4 #sp1{
+    color: gray;
+}
+#work-txt #sp2{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#work-txt a{
+    color:rgb(29, 181, 184) ;
+    text-decoration: none;
+}
+/* work  */
+
+
+
+/* contact   */
+#contact{
+    width: 70%;
+    height: 600px;
+    background-color: #eee;
+    border: 1px solid #eee;
+    margin: auto;
+}
+#contact h6{
+    color: gray;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+#contact h3{
+    color: rgb(29, 181, 184) ;
+    font-size: 30px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+textarea{
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+}
+button {
+    margin-left: 420px;
+}
+/* contact   */
+
+
+
+/* footer  */
+#footer{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: #333333;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer h5{
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+#ft1{
+    flex-basis: 20%;
+}
+ 
+#ft1 p{
+    color: gray;
+    font-size: 13px;
+}
+#ft2{
+    flex-basis: 10%;
+}
+#ft2 li{
+    list-style: none;
+    color: gray;
+    cursor: pointer;
+}
+#ft3{
+    flex-basis: 20%;
+    
+}
+#ft3 input{
+    background-color: gray;
+    border: 1px solid grey;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#ft3 input::placeholder{
+    color: #fff;
+   
+}
+#ft3 a{
+    text-decoration: none;
+    background-color: rgb(29, 181, 184);
+    color: #fff;
+   padding: 10px;
+    border-radius: 10px;
+}
+/* footer  */
+
+
+
+
+
+
+
+

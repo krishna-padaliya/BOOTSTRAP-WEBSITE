@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.offcanvas-title{
+    width: 80%;
+    background-color:blue;
+    font-weight: blod;
+    border-radius: 10px;
+    text-align: center;
+}
+#close{
+    width: 20%;
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+.container-fluid img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  justify-content: center;
+}
+#b-icon i{
+  margin-left: 30px;
+}
+#b-icon{
+  margin-top: 200px; 
+}
+#images{
+  width: 94%;
+  height: auto;
+  margin-left: 6%;
+  /* border: 1px solid black; */
+}
+#im-1{
+  margin-left: 2px;
+}

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASTRACK</title>
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="mediaquery.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- slick  -->
+    <link rel="stylesheet" type="text/css" href="slick.css">
+  <link rel="stylesheet" type="text/css" href="slick-theme.css">
+</head>
+
+<body>
+  <div id="live-chat" class="">
+  <img src="https://storage.googleapis.com/fastrack/Fastrack-Live-Chat.png" alt="">
+  </div>  
+  <!-- marquee  -->
+    <div id="mar">
+        <marquee behavior="" direction="" id="in-mar" scrollamount="10">
+            Use code FIRST and Get 10% OFF* on Fresh Watches over Rs 2499. Maximum Discount: Rs.500. T&C Apply
+        </marquee>
+    </div>
+    <!-- marquee  -->
+
+    <!-- header   -->
+    <nav class="navbar navbar-expand-lg mt-1 sticky-top" style="background-color: white;">
+        <div class="container"> 
+            <a class="navbar-brand" href="#">
+                <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwe800d23b/images/FASTRACK-Logo-Black.png"
+                    width="180px" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 80px;">
+                    <div class="container pe-2">
+                        <div class="dropdown">
+                            <button  id="dropdownMenuButton" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                WATCHES
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="drop">
+                                <div id="top-nav">
+                                  <div id="top">
+                                    <h5>Shop By Gender</h5>
+                                    <p>Guys</p>
+                                    <p>Girls</p>
+                                    <p>Unisex</p>
+                                    <a href="">Expoler<i class="bi bi-arrow-right-short"></i></a>
+                                  </div>
+                                  <div id="top">
+                                    <h5>Shop By Style</h5>
+                                    <p>Street</p>
+                                    <p>Party</p>
+                                    <p>Elevated Casual</p>
+                                    <a href="">Expoler <i class="bi bi-arrow-right-short"></i></a>
+                                  </div>
+                                  <div id="top">
+                                    <h5>Shop By Collection</h5>
+                                    <p>Stunners</p>
+                                    <p>Ticktock</p>
+                                    <p>Automatics</p>
+                                    <p>After Dark</p>
+                                    <p>Style Up</p>
+                                    <p>AnaDigi</p>
+                                    <p>Ruffles</p>
+                                    <p>Uptown Retreat</p>
+                                    <a href="">Expoler <i class="bi bi-arrow-right-short"></i></a>
+                                  </div>
+                                  <div id="top">
+                                    <h5>Shop By Function</h5>
+                                    <p>Mulifunction</p>
+                                    <p>Digital</p>
+                                    <p>Analog</p>
+                                    <p>Chronograph</p>
+                                    <p>Quartz</p>
+                                    <a href="">Expoler <i class="bi bi-arrow-right-short"></i></a>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container pe-2">
+                        <div class="dropdown">
+                            <button id="dropdownMenuButton" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                SMARTWATCHES
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="container pe-2">
+                        <div class="dropdown">
+                            <button  id="dropdownMenuButton" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                REFLEXTUNES
+                        </button> 
+                      </div>
+                  </div>
+
+                  <div class="container pe-2">
+                    <div class="dropdown">
+                        <button  id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            SALE
+                    </button>
+                    </div>
+                </div>
+
+                    <div class="container pe-2">
+                        <div class="dropdown">
+                            <button  id="dropdownMenuButton" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                MORE
+                            </button>
+                        </div>
+                    </div>
+                </ul>
+                <form class="d-flex" role="search">
+                    <i class="bi bi-search pe-3 fs-5 fw-blod"></i>
+                    <div class="container">
+                      <div class="dropdown">
+                          <button id="dropdownMenuButton" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="false">
+                              <i class="bi bi-person pe-3 fw-blod" style="color: black; font-size: 22px; margin-right:-10px; margin-left:-10px;"></i>
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="drop">
+                            <div id="person">
+                            <div id="pr-main">
+                             <h4>Join the Tribe!</h4>
+                             <button id="b1">Sign Up</button> <button>Log in</button>
+                             <hr>
+                             <p>Wishlist</p>
+                             <p>eGift Card</p>
+                             <p>Find A Store</p>
+                             <p>FAQs</p>
+                             <p>Help & Contact</p>
+                             <p>Book An Appointment</p>
+                            </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                    <i class="bi bi-heart pe-3 fs-5 fw-blod"></i>
+                    <i class="bi bi-handbag pe-3 fs-5 fw-blod"></i>
+                    <i class="bi bi-box pe-3 fs-5 fw-blod"></i>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+    <!-- header  -->
+
+
+    <!-- section-1  -->
+    <p id="sec1"><i class="bi bi-geo-alt-fill"></i> Select a location to check product availability <a href="">Add Location</a></p>
+    <!-- section-1  -->
+
+
+    <!-- section-2  -->
+     <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw02940f8b/images/homepage/desktop/FT_Halfprice_D.jpg" alt="">
+      </div>
+        <div class="swiper-slide">
+            <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwedeb569f/images/homepage/desktop/new2_D.jpg" alt="">
+        </div>
+      <div class="swiper-slide">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwefb062bc/images/homepage/desktop/reflex_d.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw8364d3db/images/homepage/desktop/active_d.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw840d9927/images/homepage/desktop/1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw5a394630/images/homepage/desktop/fastrack_d.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw7323e6ba/images/homepage/desktop/new3_D.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw0471ed80/images/homepage/desktop/hero-carousel-d.jpg" alt="">
+      </div>
+    </div>
+    <img class="swiper-button-next" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/default/dwcda5b236/images/nextArrowWhite.svg" alt="">
+    <img class="swiper-button-prev" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/default/dw9f411a02/images/prevArrowWhite.svg" alt="">
+    <div class="swiper-pagination" ></div>
+  </div>
+    <!-- section-2  -->
+
+
+    <!-- section-3  -->
+    <div id="sec3" class="d-flex">
+      <img id="sec3-arrow" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/default/dw9f411a02/images/prevArrowWhite.svg" alt="">
+      <div id="sec3-img">
+        <div id="img-grid">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwa482caa5/images/homepage/desktop/analog_home_d.jpg" alt="">
+        <p>ANALOG WATCHES</p>
+        </div>
+        <div id="img-grid">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw061b60f8/images/homepage/desktop/Smart_category_D.jpg" alt="">
+        <p>SMART WATCHES</p>
+        </div>
+        <div id="img-grid">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw6018b894/images/homepage/desktop/cat3_d.jpg" alt="">
+        <p>&nbsp; HEARABLES</p>
+        </div>
+      </div> 
+      <img id="sec3-arrow" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/default/dwcda5b236/images/nextArrowWhite.svg" alt="">
+      <div id="sec3-txt">
+        <h1>FASTRACK</h1>
+        <h1>CATEGORIES</h1>
+      </div>
+    </div>
+    <!-- section-3  -->
+
+    <!-- section-4  -->
+    <center>
+    <img id="sec4-img" src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw5cfbd4fe/images/homepage/desktop/emi_section_d.jpg" alt="">
+    </center>
+    <!-- section-4  -->
+
+    <!-- section-5  -->
+    <marquee id="sec5" behavior=""  loop="10">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACUCAMAAAA9M+IXAAAAZlBMVEUAAAD////v7+/39/eOjo7MzMz8/PyIiIimpqbi4uLy8vIoKCifn5+zs7O6urrs7OxeXl5oaGgLCws5OTkWFhbS0tIxMTGCgoJZWVkdHR1jY2NHR0dCQkJNTU2VlZURERF2dnbDw8O8abj1AAADv0lEQVR4nO2c3ZqaMBBAHSCRqBFREUXR8P4vWdjt7lJFBeeH2uZcc3G+fJPJZJIwmXg8Ho/H4/F4PJ5/k/mpXKWpc1HkXJquytN8bKO7lPnCKpNo+EYHRtlFXo5tdotbmiSETsLELN3Yfj+sNy7rFm2Tuc16bNOabW5nz2UbZjbfjiy7Pmf6ueh3LGfnMUd4HQX9XT8JorGE59NkqGxDMh0luaU95lc3WSouu7V30lYfQis85wqE7IdwISi7i3GyDfFOzPblqG2TCfmuKGShTtcrAdl1NGBdeGIskINj5CRrE8bctpZOtsGyym6JbWtfzgxMkMCuYYyHM70twJnLNuewBch5bNOeZfhQZiwVz87w2AIYjvWNZOXtJqO3ZZlmX5BPtxXhYnZLSFw+zBWnLYCi3RAteG0BFpS2G9ZQaAg3hLpLbluAJZ1tym8LmmyxuDDPs0/UhUjXsUduQ+hobA+VhC1AdSDR3cvYAuxJdAXSwic0yUHKFoDClrW2+ROKSoexcLyGoJDcv9TEfY0EP9nYi5s26EJHKuk2aHzqLQVjoY4G7ImhRHXTAlvniIYuPngF01gDNpWJFGM/hDjbuawtAG6LWUjr4k6EImndCKVL3n5+Bq6dLpwYsKmBret4D4PSFV2CGxKU7uD7CliC/0h3K6+LObjaMR1H3GeGae1d5EcXdUz8XrH7brpvlnffbFUT6ey2UShdhiP2x+AO4KfSulOUrlhv9wtc2+kirYs8oBBOvLi0O5lUsroVUld4b4nbWYrv3LE3OY+i65o5InXXYuc+TX93ib5lSHflsYcvNnTraJA8m8DGwuTdTn4k++ckdwTEWrzI5u5vxIpImtubR6HcoAkmWoPQ8FJdjS1EyrKA7ClFxS+r0cXYDxuB3hOq23SFwGEg5TW9OftKHJBegnTcuo7SdnJhriOXxO8RNqzJLKC8sPlBCmyLm6apbf6E8USQ4ynNga29p2huE17Bta+g2EN0+rIsbjMmW56bsVT3YLug3xYTbH4fMCUe3xDXz31KTuobMr2mavkSLm8Bu229tyDLZ4nIU+wDSZdPg2FZHTp8LUGC0FbIti4nCcpfR/VMohdD/tHRMbQMD+oeMzXwcklpmLNtF6dXI1jbk7xtTamGCtffazXeT4iKamCRNqskf3txS9r8UaDvIIex/E9QrjnlPZcNk48TszfsFlnycIR1ki3E/iXSh31k1Z3iJ1E2onksRcquLPJYmfb/yIyK86L8q8a1g+3hdDyM/Xcsj8fj8Xg8Ho/n7fgFzTZB9RyqQxwAAAAASUVORK5CYII=" alt=""> TRENDING
+    </marquee>
+    <!-- section-5  -->
+
+
+    <!-- section-6  -->
+    <!-- Swiper -->
+  <div class="swiper mySwiper" style="width: 90%;">
+    <img class="swiper-button-prev" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/default/dw9f411a02/images/prevArrowWhite.svg" alt="">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+           <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw82c28b37/images/homepage/desktop/new_d.jpg" alt="">
+        </div>
+      <div class="swiper-slide">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwedc06490/images/homepage/desktop/vyb_d.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw4e129315/images/homepage/desktop/tick_tok_d.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwe97e4717/images/homepage/desktop/Automatics_D.jpg" alt="">
+      </div>
+    </div>
+    <img class="swiper-button-next" id="next" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/default/dwcda5b236/images/nextArrowWhite.svg" alt="">
+    <div class="swiper-pagination" id="page"></div>
+  </div>
+    <!-- section-6  -->
+
+
+
+    <!-- section-7  -->
+     <div id="sec7">
+        <h4>SHOP YOUR VIBE</h4>
+        <div id="sec7-img" class="d-flex justify-content-center ">
+            <div id="shop">
+                <img id="shop-img" src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw42508cc2/images/homepage/desktop/style1_D.jpg" alt="">
+                <img id="icon-img" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/en_IN/v1704846876638/images/shop_style_button.jpg" alt="">
+                <div id="icon-txt" class="d-flex">
+                <p>ELEVATED CASUAL</p>
+                <i id="arrow1" class="bi bi-caret-right-fill" style="color: white;"></i>
+              </div>
+            </div>
+            <div id="shop">
+                <img id="shop-img" src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw9bb48572/images/homepage/desktop/style2_D.jpg" alt="">
+                <img id="icon-img" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/en_IN/v1704846876638/images/shop_style_button.jpg" alt="">
+                <div id="icon-txt" class="d-flex">
+                <p>PARTY</p>
+                <i id="arrow" class="bi bi-caret-right-fill" style="color: white;"></i>
+              </div>
+            </div>
+            <div id="shop">
+                <img id="shop-img" src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw83957d1f/images/homepage/desktop/Streetwear_Desktop.jpg" alt="">
+                <img id="icon-img" src="https://www.fastrack.in/on/demandware.static/Sites-Fastrack-Site/-/en_IN/v1704846876638/images/shop_style_button.jpg" alt="">
+                <div id="icon-txt" class="d-flex">
+                  <p>STREET</p>
+                  <i id="arrow" class="bi bi-caret-right-fill" style="color: white;"></i>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- section-7  -->
+
+
+    <!-- section-8  -->
+    <center>
+    <img id="sec8" src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwa49b75e2/images/homepage/desktop/fastrack_smart_d.jpg" alt="">
+  </center>
+    <!-- section-8  -->
+
+
+
+    <!-- section-9  -->
+    <div id="sec9">
+      <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw5993ee99/images/homepage/desktop/video-thumbnail.jpg" alt="">
+    <div class="video  animate__animated animate__flipInX">
+            <i class="bi bi-play-fill" onclick="playvideo('images/video.mp3')"></i> 
+        </div>
+        <div class="video-player" id="videoplayer">
+        <video width="100%" controls autoplay id="myvideo">
+        <iframe src="https://youtu.be/645Oi-VWWzk?list=TLGG8d1zFVTcMUMxMTAxMjAyNA" type="video/mp3"></iframe>
+        </video>
+        <i class="bi bi-x" id="close-btn" onclick="stopvideo()"></i>
+        </div>
+      </div>
+        <script>
+            var videoplayer = document.getElementById("videoplayer");
+            var myvideo = document.getElementById("myvideo");
+            function stopvideo(){
+                videoplayer.style.display = "none";
+            }
+            function playvideo(file){
+                // myvideo.src = file;
+                videoplayer.style.display = "block";
+
+            }
+        </script>
+    <!-- section-9  -->
+    
+
+
+    <!-- section-10  -->
+    <div id="sec10" class="d-flex">
+    <section class="regular slider">
+      <div id="slick">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw9a9828f3/images/homepage/desktop/3304ND01_4.jpg">
+        <h5>CERAME</h5>
+        <P>
+          Fastrack's pioneering ceramic collection. Experience the modern richness of ceramic bezels and straps, paired with stainless steel and multifunctional design for a superior statement in contemporary style.
+        </P>
+      </div>
+      <div id="slick">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwad094adf/images/homepage/desktop/6292QM01_3.jpg">
+        <h5>crush</h5>
+        <p>
+          Uniquely styled with creases and pinches, these sleek watches are all about making a bold and edgy statement.
+        </p>
+      </div>
+      <div id="slick">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwb802dce1/images/homepage/desktop/3287QM03_3.jpg">
+        <h5>Tick Tock</h5>
+        <p>
+          multilayered dials, striking finishes, and assorted plating hues, all housed in a bold case with distinctive pushers for an expressive timepiece.
+        </p>
+      </div>
+      <div id="slick">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwac9b1967/images/homepage/desktop/6207QM02_4.jpg">
+        <h5>Style Up</h5>
+        <p>
+          Where vibrant plating meets exceptional design, perfect for those who dress to impress and seek distinct colors in their timepieces.
+        </p>
+      </div>
+      <div id="slick">
+        <img src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwa9cbcc92/images/homepage/desktop/3304KD01_4.jpg">
+        <h5>CERAME</h5>
+        <P>
+          Fastrack's pioneering ceramic collection. Experience the modern richness of ceramic bezels and straps, paired with stainless steel and multifunctional design for a superior statement in contemporary style.
+        </P>
+      </div>
+    </section>
+    <img width="50%" id="sec10-img" src="https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw5830d29e/images/homepage/desktop/featured-collections-desktop.jpg" alt="">
+  </div>
+    <!-- section-10  -->
+
+
+    <!-- section-11  -->
+   <div id="sec11" >
+  <div id="main"class="d-flex">
+    <div id="service" class="d-flex">
+    <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwe3757352/images/plp/SecureCheckoutD.svg" alt="">
+    <p>SAFE AND SECURE
+      CHECKOUT</p>
+    </div>
+
+    <div id="service" class="d-flex">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw6ae7b32f/images/plp/QualityD.svg" alt="">
+      <p>PREMIUM QUALITY
+        PRODUCTS</p>
+    </div>
+
+
+    <div id="services" class="d-flex">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwf7701290/images/plp/7%20Day%20returnD.svg" alt="">
+      <p>7 DAY <br>
+        RETURN</p>
+    </div>
+
+    <div id="service" class="d-flex">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwb16f293a/images/plp/shippingD.svg" alt="">
+      <p>FREE SHIPPING
+        NATIONWIDE</p>
+    </div>
+  </div>
+   </div>
+    <!-- section-11  -->
+
+
+    <!-- footer  -->
+   <footer>
+    <div id="f-main" class="d-flex">
+    <div id="logo">
+    <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw6e5f9a6a/images/FASTRACK-Logo-White.svg" alt="">
+    <img  id="f-ic" src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw501c733f/images/footer/fbFD.svg" alt="">
+    <img  id="f-ic" src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwe861d148/images/footer/XtwitterD.svg" alt="">
+    <img  id="f-ic" src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwc5c03770/images/footer/instaFD.svg" alt="">
+    <img  id="f-ic" src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw87098ab1/images/footer/youtubeFD.svg" alt="">
+    <img  id="f-ic" src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwdeeedeff/images/footer/pinterestFD.svg" alt="">
+    </div>
+    <div id="links">
+
+    <div id="f-nav">
+      <h5>CUSTOMER SERVICE</h5>
+      <a href="">Payment Options</a><br>
+      <a href="">Track Order</a><br>
+      <a href="">Find a Store</a><br>
+      <a href="">Encircle Program</a>
+    </div>
+
+    <div id="f-nav">
+      <h5>POLICIES</h5>
+      <a href="">Brand Protection</a><br>
+      <a href="">Cancellation</a><br>
+      <a href="">Shipping</a><br>
+      <a href="">Warranty Policies</a>
+    </div>
+
+    <div id="f-nav">
+      <h5>ABOUT FASTRACK</h5>
+      <a href="">About Us</a><br>
+      <a href="">Help & Contact</a><br>
+      <a href="">Careers</a>
+    </div>
+
+    <div id="f-nav">
+      <h5>CONTACT US</h5>
+      <a href="">1800-266-0123</a><br>
+      <a href="">customercare@titan.co.in</a><br>
+      <a href="">FAQs</a>
+    </div>
+
+    <div id="f-navi">
+      <h5>DOWNLOAD THE TITAN APP</h5>
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw42175e01/images/footer/appstoreM.svg" alt="">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw8bd19073/images/footer/googleplayFM.svg" alt="">
+      <h5>NEED HELP?</h5>
+      <p>Chat with us on <a href="">WhatsApp</a></p>
+    </div>
+    </div>
+    </div>
+   </footer>
+   <div id="term">
+    <center>
+      <p>Terms and Conditions | Privacy Policy</p>
+    </center>
+   </div>
+   <div id="company">
+    <div id="com-main">
+    <div id="com-img" class="d-flex">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwbf1b94c4/images/footer/visaFd.svg" alt="">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw6e47ebe7/images/footer/mastercardiconFD.svg" alt="">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwcaac1b1a/images/footer/paypalFD.svg" alt="">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwbf6c3563/images/footer/maestro.svg" alt="">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw845e49bd/images/footer/rupeeFD.svg" alt="">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw078680b0/images/footer/axisbankFD.svg" alt="">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dw9093c25b/images/footer/icicibankFD.svg" alt="">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwaa270d80/images/footer/DinnerClubFD.svg" alt="">
+      <img src="https://www.fastrack.in/on/demandware.static/-/Library-Sites-FastrackSharedLibrary/default/dwf009a0db/images/footer/americanExpressFD.svg" alt="">
+    </div>
+    <div id="com-txt">
+      <p>© 2023 Titan Company Limited. All Rights Reserved.</p>
+    </div>
+  </div>
+   </div>
+
+
+
+    <!-- footer  -->
+
+
+</body>
+
+</html>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+<!-- slick  -->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+    });
+</script>

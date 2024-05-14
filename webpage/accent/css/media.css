@@ -1,0 +1,202 @@
+
+
+@media (min-width:993px) and (max-width:1200px){
+    textarea{
+        width: 840px;
+    }
+    button {
+        margin-left: 350px;
+    }
+    #do{
+        /* margin-bottom: 450px; */
+        margin-top: 50px;
+        height: 1200px;
+    }
+    #slide-txt{
+        left: 25%;
+        top: 45%;
+    }
+    
+}
+
+
+
+
+
+@media (min-width:769px) and (max-width:992px){
+    textarea{
+        width: 695px;
+    }
+    button {
+        margin-left: 280px;
+    }
+    #do{
+        /* margin-bottom: 450px; */
+        margin-top: 50px;
+        height: 1200px;
+    }
+    #slide-txt{
+        left: 20%;
+        top: 45%;
+    }
+    
+}
+
+
+
+
+@media (min-width:576px) and (max-width:768px){
+    #slide-txt{
+        left: 15%;
+        top: 40%;
+       width: 550px;
+       margin: auto;
+    }
+    #slide-txt h1{
+        font-size: 40px;
+    }
+    #slide-txt .btn {
+        margin-left: 200px;
+        margin-top: 0;
+    }
+    #about{
+        margin-top: 150px;
+        margin-bottom: 300px;
+        flex-direction: column;
+       
+    }
+    #about img{
+        margin-left: 120px;
+    }
+    #about-txt{
+        width: 60%;
+        margin-left: 120px;
+    }
+    #meet{
+        margin-bottom: 900px;
+    }
+    #meet-txt{
+        flex-direction: column;
+    }
+    #meet h3{
+        width: 80%;
+    }
+    #meet-txt #txt-1{
+        width: 80%;
+        margin-bottom:50px;
+    }
+    #do{
+        /* margin-bottom: 1000px; */
+        height: 2200px;
+    }
+    #in-do h3{
+        width: 80%;
+    }
+    .do-txt{
+        margin-left: 50px;
+    }
+    #work{
+        margin-bottom: 2000px;
+    }
+    #work h3{
+        width: 80%;
+    }
+    #work-main{
+        flex-direction: column;
+    }
+
+    textarea{
+        width: 535px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    #contact{
+        height: 600px;
+    }
+    button {
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+    #footer{
+        flex-direction: column;
+        height: 650px;
+    }
+}
+
+
+
+@media (max-width:575px){
+    #slide-txt{
+        left: 8%;
+        top: 40%;
+       width: 500px;
+       margin: auto;
+    }
+    #slide-txt h1{
+        font-size: 40px;
+    }
+    #slide-txt .btn {
+        margin-left: 180px;
+    }
+    #about{
+        margin-top: 150px;
+        margin-bottom: 300px;
+        flex-direction: column;
+       
+    }
+    #about img{
+        margin-left: 120px;
+    }
+    #about-txt{
+        width: 60%;
+        margin-left: 120px;
+    }
+    #meet{
+        margin-bottom: 900px;
+    }
+    #meet-txt{
+        flex-direction: column;
+    }
+    #meet h3{
+        width: 80%;
+    }
+    #meet-txt #txt-1{
+        width: 80%;
+        margin-bottom:50px;
+    }
+    #do{
+        margin-bottom: 1400px;
+    }
+    #in-do h3{
+        width: 80%;
+    }
+    .do-txt{
+        margin-left: 50px;
+    }
+    #work{
+        margin-bottom: 2000px;
+    }
+    #work h3{
+        width: 80%;
+    }
+    #work-main{
+        flex-direction: column;
+    }
+
+    textarea{
+        width: 400px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    #contact{
+        height: 750px;
+    }
+    button {
+        margin-left: 140px;
+        margin-top: 30px;
+    }
+    #footer{
+        flex-direction: column;
+        height: 650px;
+    }
+}
